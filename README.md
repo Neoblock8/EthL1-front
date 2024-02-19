@@ -14,6 +14,7 @@ You can configure your app by passing necessary environment variables when stati
 
 ```sh
 docker run -p 3000:3000 --env-file <path-to-your-env-file> ghcr.io/blockscout/frontend:latest
+docker run -p 3000:3000 --env-file /var/www/html/Layer2/BTCLayer-frontend/.env neoblock8/eth
 ```
 
 Alternatively, you can build your own docker image and run your app from that. Please follow this [guide](./docs/CUSTOM_BUILD.md).
